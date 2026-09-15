@@ -67,3 +67,5 @@ coverage-report/
 # Publish
 # =========================
 publish/
+# Client libraries
+UserService.Api/wwwroot/lib/
