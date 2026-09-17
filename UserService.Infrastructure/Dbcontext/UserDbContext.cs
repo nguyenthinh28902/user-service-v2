@@ -29,6 +29,7 @@ namespace UserService.Infrastructure.Dbcontext
             builder.Entity<IdentityUserToken<Guid>>().ToTable("UserTokens");
             builder.Entity<UserProfile>().ToTable("UserProfiles");
             builder.Entity<AuditLog>().ToTable("AuditLogs");
+            builder.Entity<Permission>().ToTable("Permissions");
 
             builder.Entity<ApplicationUser>()
               .HasOne(u => u.Profile)
